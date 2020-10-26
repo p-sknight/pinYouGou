@@ -1,0 +1,212 @@
+        .sk {
+            height: 40px;
+            float: left;
+            margin-left: 25px;
+            padding-left: 15px;
+            position: absolute;
+            top: 30px;
+            right: -43px;
+            font-size: 25px;
+        }
+        
+        .sk-list-f1 h3 {
+            color: rgba(226, 35, 26);
+            border-bottom: 1px rgba(226, 35, 26) solid;
+        }
+        
+        .nav {
+            border: none;
+        }
+        
+        .tab-tr {
+            height: 40px;
+            background-color: #f3f3f3;
+        }
+        
+        .tab-tr>div {
+            height: 40px;
+            float: left;
+            line-height: 40px;
+        }
+        
+        .checkAll {
+            width: 133px;
+            padding-left: 10px;
+        }
+        
+        .goods-detail {
+            width: 400px;
+        }
+        
+        .price {
+            width: 160px;
+        }
+        
+        .counts {
+            width: 160px;
+        }
+        
+        .sum {
+            width: 160px;
+        }
+        
+        .action {
+            width: 133px;
+        }
+        
+        .goods-list {
+            background-color: #fff;
+            margin-bottom: 50px;
+        }
+        
+        .goods-list li {
+            height: 220px;
+            border-top: 2px solid #bbbbbb;
+            padding-top: 20px;
+            margin-top: 15px;
+            border-right: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            border-left: 1px solid #eee;
+        }
+        
+        .goods-check {
+            float: left;
+            margin-left: 10px;
+        }
+        
+        .goods-img {
+            float: left;
+            width: 130px;
+            height: 130px;
+            /* background-color: pink; */
+            margin: 0px 5px 30px 30px;
+            padding: 10px;
+            border: 1px #eee solid;
+        }
+        
+        .goods-img img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .goods-imf {
+            width: 200px;
+            float: left;
+        }
+        
+        .goods-price {
+            margin-left: 140px;
+            width: 100px;
+            float: left;
+        }
+        
+        .goods-num {
+            width: 100px;
+            float: left;
+            text-align: center;
+            margin-left: 54px;
+        }
+        
+        .goods-num span {
+            display: block;
+            width: 60px;
+            height: 16px;
+            background-color: #fff;
+            position: relative;
+            border: 1px #ccc solid;
+            outline: none;
+            text-align: center;
+        }
+        
+        .goods-num input {
+            width: 60px;
+            height: 16px;
+            outline: none;
+            text-align: center;
+        }
+        
+        .goods-num .plus {
+            width: 16px;
+            height: 16px;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #ccc;
+            line-height: 14px;
+        }
+        
+        .goods-num .deplus {
+            content: "-";
+            width: 16px;
+            height: 16px;
+            display: block;
+            position: absolute;
+            top: 0;
+            right: -1px;
+            background-color: #ccc;
+            line-height: 14px;
+        }
+        
+        .goods-sum {
+            float: left;
+            width: 160px;
+            background-color: #fff;
+            text-align: center;
+        }
+        
+        .delete {
+            margin-left: 65px;
+        }
+        
+        .goods-list .pay-ifm {
+            padding: 0 0 0 10px;
+            height: 50px;
+            line-height: 50px;
+            border-left: none;
+            border: 1px solid #eee;
+        }
+        
+        .goods-list .pay-ifm .deleteChecked {
+            margin-left: 30px;
+        }
+        
+        .goods-list .pay-ifm .deleteAll {
+            margin-left: 20px;
+            display: inline-block;
+        }
+        
+        .goods-list .pay-ifm .checkTip {
+            display: inline-block;
+            margin-left: 400px;
+        }
+        
+        .goods-list .pay-ifm .checkTip span {
+            display: inline-block;
+            color: red;
+        }
+        
+        .goods-list .pay-ifm .payAmout {
+            display: inline-block;
+            margin-left: 40px;
+        }
+        
+        .goods-list .pay-ifm .payAmout span {
+            display: inline-block;
+            margin-left: 10px;
+            color: #e22e28;
+            font-size: 20px;
+        }
+        
+        .goods-list .pay-ifm .pay-btn {
+            background-color: #e54346;
+            display: inline-block;
+            padding: 0px 20px;
+            color: #fff;
+            font-size: 20px;
+            float: right;
+        }
+        
+        .goods-list .pay-ifm .pay-btn:hover {
+            color: rgb(255, 1, 1);
+        }

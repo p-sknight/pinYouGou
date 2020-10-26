@@ -1,0 +1,476 @@
+        /* d-nav-frist */
+        
+        .de-container {
+            height: 560px;
+            margin-bottom: 30px;
+        }
+        
+        .link-nav {
+            height: 48px;
+        }
+        
+        .dc-f1 {
+            width: 400px;
+            height: 560px;
+            float: left;
+        }
+        
+        .de-dt {
+            width: 800px;
+            height: 560px;
+            float: left;
+            position: relative;
+        }
+        
+        .f1-show {
+            position: relative;
+            border: #ccc 1px solid;
+        }
+        
+        .f1-show .big {
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            top: 0px;
+            left: 410px;
+            z-index: 66;
+            overflow: hidden;
+            background-color: red;
+            border: #ccc 1px solid;
+            display: none;
+        }
+        
+        .f1-show .big img {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 2000px;
+            height: 2000px;
+        }
+        
+        .dc-f1 .mask {
+            display: none;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-color: rgba(22, 33, 233, 0.5);
+        }
+        
+        .dc-f1 img {
+            width: 400px;
+            height: 400px;
+        }
+        
+        .more {
+            height: 160px;
+            position: relative;
+        }
+        
+        .more i {
+            width: 50px;
+            height: 60px;
+            position: absolute;
+        }
+        
+        .more i img {
+            width: 22px;
+            height: 32px;
+            margin: 14px auto;
+        }
+        
+        .m-arrow-tl {
+            top: 0px;
+            left: -50px;
+        }
+        
+        .m-arrow-tr {
+            top: 0;
+            left: 300px;
+        }
+        
+        .f1-turn {
+            width: 300px;
+            height: 60px;
+            background-color: #fff;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+        
+        .f1-turn li {
+            height: 60px;
+            float: left;
+            overflow: hidden;
+        }
+        
+        .f1-turn li img {
+            width: 60px;
+            height: 60px;
+        }
+        
+        .f1-turn li img:hover {
+            border: 1px red solid
+        }
+        
+        .choose {
+            overflow: hidden;
+        }
+        
+        .choose:hover {
+            border: 1px red solid
+        }
+        
+        .dt-name {
+            height: 62px;
+        }
+        
+        .dt-name h4 {
+            font-size: 16px;
+        }
+        
+        .dt-name p {
+            color: red
+        }
+        
+        .dt-price {
+            height: 112px;
+            background-color: #fee9eb;
+            line-height: 37.33px;
+        }
+        
+        .dt-price .dt-p-price {
+            height: 42px;
+        }
+        
+        .dt-price .dt-p-price .price-lable {
+            display: inline-block;
+            font-size: 25px;
+            color: red;
+            height: 42px;
+            margin-left: 20px;
+        }
+        
+        .dt-price .dt-p-price .slae-imf {
+            color: red;
+        }
+        
+        .dt-price .dt-p-price .comments {
+            margin-left: 481px;
+        }
+        
+        .dt-price .dt-p-price .num {
+            color: blue;
+        }
+        
+        .dt-p-sale span:nth-child(1) {
+            margin-left: 20px;
+        }
+        
+        .dt-price .dt-p-sale span span {
+            margin: 1px;
+            background-color: red;
+            color: #fff;
+        }
+        
+        .dt-p-sale p {
+            margin-left: 47px;
+        }
+        
+        .dt-price .dt-p-sale .dt-service {
+            height: 324px;
+        }
+        
+        .dt-service {
+            height: 100px;
+            border-bottom: 1px #ccc solid;
+        }
+        
+        .dt-service .service:nth-child(1) {
+            height: 33.33px;
+        }
+        
+        .dt-service .service:nth-child(2) {
+            height: 66.7px;
+        }
+        
+        .dt-service .service span {
+            margin-left: 25px;
+        }
+        
+        .dt-service .service p {
+            margin-left: 64px;
+        }
+        
+        .dt-buy {
+            height: 240px;
+        }
+        
+        .dt-buy div ul {
+            height: 160px;
+            margin: 4px 10px;
+        }
+        
+        .dt-buy .l-lable ul {
+            height: 45px;
+        }
+        
+        .dt-buy .m-lable ul {
+            height: 35px;
+        }
+        
+        .dt-buy .s-lable ul {
+            height: 30px;
+        }
+        
+        .dt-buy ul li ul li {
+            width: 85px;
+            float: left;
+            text-align: center;
+            background-color: #f7f7f7;
+            margin-left: 4px;
+        }
+        
+        .dt-buy ul li ul li:nth-child(1) {
+            background-color: #fff;
+        }
+        
+        .dt-buy .l-lable ul li {
+            height: 45px;
+            line-height: 45px;
+        }
+        
+        .dt-buy .m-lable ul li {
+            height: 35px;
+            line-height: 35px;
+        }
+        
+        .dt-buy .s-lable ul li {
+            height: 30px;
+            line-height: 30px;
+        }
+        
+        .buy-btn {
+            height: 50px;
+        }
+        
+        .buy-btn .buy-num {
+            width: 50px;
+            height: 50px;
+            float: left;
+            margin-right: 20px;
+            position: relative;
+        }
+        
+        .buy-num input {
+            width: 35px;
+            height: 50px;
+        }
+        
+        .buy-num a {
+            width: 15px;
+            height: 25px;
+            background-color: #ccc;
+            text-align: center;
+            line-height: 25px;
+            border: 1px #333 solid;
+        }
+        
+        .buy-num .plus {
+            position: absolute;
+            left: 35px;
+        }
+        
+        .buy-num .jian {
+            position: absolute;
+            left: 35px;
+            top: 25px;
+            cursor: not-allowed;
+        }
+        
+        .buy-btn .btn {
+            width: 142px;
+            height: 50px;
+            float: left;
+            background-color: red;
+            color: #fff;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+        }
+        
+        .main {
+            height: 2417px;
+            margin-top: 30px;
+        }
+        
+        .aside {
+            width: 210px;
+            height: 1136px;
+            margin-right: 15px;
+            float: left;
+            /* background-color: rgba(25, 160, 223, 0.5); */
+            border: 1px #ccc solid;
+            background-color: #fff;
+        }
+        
+        .main-ifm {
+            width: 975px;
+            height: 2400px;
+            float: left;
+            /* background-color: rgba(223, 210, 25, 0.5); */
+            background-color: #fff;
+        }
+        
+        .m-con {
+            height: 1134px;
+        }
+        
+        .m-con ul li {
+            display: none;
+        }
+        
+        .m-con ul li:nth-child(4) {
+            display: block;
+        }
+        
+        .main-ifm .m-con ul li ul li {
+            display: block;
+            text-align: left;
+            line-height: 30px;
+            margin-left: 50px;
+        }
+        
+        .a-title {
+            height: 35px;
+        }
+        
+        .a-items {
+            height: 1404px;
+        }
+        
+        .item {
+            height: 220px;
+        }
+        
+        .a-title li {
+            float: left;
+            text-align: center;
+            line-height: 35px;
+            width: 50%;
+            background-color: #f1f1f1;
+            overflow: hidden;
+            border-bottom: 1px #ccc solid;
+            border-right: 1px #ccc solid;
+        }
+        
+        .a-title li:hover {
+            background-color: #fff;
+            color: red;
+            border-bottom: none;
+        }
+        
+        .item {
+            width: 190px;
+            margin: 0px auto;
+            position: relative;
+            border-bottom: 1px #ccc solid;
+        }
+        
+        .item div {
+            width: 190px;
+            height: 170px;
+            /* background-color: rgba(192, 44, 44, 0.6); */
+            background-color: #fff;
+            font-size: 10px;
+        }
+        
+        .item a {
+            display: block;
+            width: 90px;
+            height: 26px;
+            border: 1px #ccc solid;
+            background-color: #f7f7f7;
+            position: absolute;
+            left: 25%;
+            bottom: 7px;
+            text-align: center;
+            line-height: 26px;
+        }
+        
+        .m-nav {
+            height: 40px;
+            background-color: #f1f1f1;
+            border: 1px #ccc solid;
+        }
+        
+        .m-nav ul {
+            height: 42px;
+        }
+        
+        .m-nav ul li {
+            height: 40px;
+            padding: 0px 20px;
+            float: left;
+            text-align: center;
+            line-height: 40px;
+        }
+        
+        .m-nav ul li:nth-child(4) {
+            background-color: #c81623;
+            color: #fff;
+        }
+        /* .m-nav ul li:hover {
+            background-color: #c81623;
+            color: #fff;
+        } */
+        
+        .m-detial {
+            width: 975px;
+            height: 330px;
+            /* background-color: red; */
+            padding-left: 60px;
+            position: relative;
+        }
+        
+        .m-detial ul {
+            height: 330px;
+            text-align: left;
+            /* background-color: blue; */
+        }
+        
+        .m-detial a {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            font-family: 'iconmoon';
+        }
+        
+        .comment-panel {
+            width: 500px;
+            height: 200px;
+            resize: none;
+            margin: 50px;
+        }
+        
+        .publish {
+            width: 60px;
+            height: 40px;
+        }
+        
+        .comment-area li {
+            width: 100%;
+        }
+        
+        .main-ifm .m-con ul li .comment-area span {
+            text-align: right;
+            margin-left: 50px;
+            color: rgb(68, 0, 255);
+        }
+        
+        .main-ifm .m-con ul li .comment-area a {
+            display: block;
+            text-align: right;
+            color: red;
+        }

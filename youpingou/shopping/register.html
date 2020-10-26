@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh- CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="优品购国际,护肤品,营养品,母婴用品,奶粉,家居厨具,数码,电器,优品购">
+    <meta name="description" content="优品购是国内最有保障的海外购物平台,提供母婴用品,护肤品,彩妆,钟表首饰,数码电器等全球优质商品,全球直供,售后无忧,来优品购开启您的海外购物之旅吧.">
+    <title>注册 -综合网购优选平台-正品低价-低价有质-您优购的不二之选
+    </title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="js/register.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="head w"><img src="images/logo.png" alt=""></div>
+
+
+    <div class="re-main w">
+
+        <div class="rm-title">
+            <h5>注册新用户
+                <span>我有账号,去
+                <a href="">登录</a>
+            </h5>
+            </span>
+        </div>
+        <div class="r-main w">
+            <form action="">
+                <ul class="a">
+                    <li class="a">
+
+                        <label for="tel">手机号:</label>
+                        <input type="text" class="tele">
+                        <img src="images/error.png" alt="">
+                        <span class="error">手机号格式不正确,请重新输入 
+
+                        
+                    </li>
+
+                    <li class="a">
+                        <label for="text">短信验证码:</label>         
+                            <input type="text">   
+                    </li>
+
+                    <li class="a">
+
+                        <label for="tel">登录密码</label>
+                        <img src="images/close.png" alt="" id="eye">
+                        <input type="password" id="pwd">
+                        <img src="images/success.png" alt="">
+                        <span class="error">恭喜您输入正确</span>
+                    </li>
+                    <li>
+                        <span class="strength">
+                            安全程度
+                            <em class="weak">弱</em>
+                            <em class="middle">中</em>
+                            <em class="strong">强</em>
+                        </span>
+                    </li>
+                    <script>
+                        var pwd = document.querySelector("#pwd");
+                        var eye = document.querySelector("#eye");
+
+                        var flag = false;
+                        eye.onclick = function() {
+                            if (flag == false) {
+                                eye.src = 'images/open.png';
+                                pwd.type = "text";
+                                flag = true;
+                            } else {
+                                eye.src = 'images/close.png';
+                                pwd.type = 'password';
+                                flag = false;
+                            }
+
+                        }
+                    </script>
+                    <li class="a">
+
+                        <label for="tel">确认密码</label>
+                        <input type="text">
+                        <img src="images/success.png" alt="">
+                        <span class="error">恭喜您输入正确</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="agree" id="agreement"> 同意协议并注册
+                        <a href="" class="agreement"> 《知果果用户协议》 </a>
+                    </li>
+                    <li>
+                        <input type="submit" value="完成注册" class="re-btn">
+                    </li>
+
+
+
+                </ul>
+            </form>
+        </div>
+
+    </div>
+    </div>
+
+
+    <div class="r-imf">
+        <div class="otherimf w ">
+            <p> 关于我们 | 联系我们 | 联系客服 | 商家入驻 | 营销中心 | 手机品优购 | 友情链接 | 销售联盟 | 品优购社区 | 品优购公益 | English Site | Contact U
+            </p>
+            <p>
+                地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn
+                <br> 京ICP备08001421号京公网安备110108007702
+
+            </p>
+        </div>
+    </div>
+</body>
+
+
+</html>
+
+
+
+<!-- <div class="form">
+
+    </p>
+
+    <p>登录密码:
+        <input type="text">
+        <img src="images/success.png" alt="">
+        <span class="error">恭喜您输入正确</span>
+    </p>
+    <p>
+        确认密码: <input type="text">
+    </p>
+</div>
+<P><input type="checkbox" name="agree" id="agreement"> 同意协议并注册
+    <a href=""> 《知果果用户协议》 </a>
+</P>
+<a href="#" class="re-btn"></a> -->

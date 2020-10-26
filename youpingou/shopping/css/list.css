@@ -1,0 +1,169 @@
+.sk {
+    height: 40px;
+    float: left;
+    /* margin-left: 25px; */
+    padding-left: 15px;
+    border-left: 1px red solid;
+    position: absolute;
+    top: 40px;
+    right: -38px;
+}
+
+.sk img {
+    width: 52px;
+    height: 26px;
+    margin: 7px auto;
+}
+
+.sk-list-f1 ul {
+    height: 45px;
+}
+
+.nav .w .sk-list-f1 li {
+    width: 61px;
+    float: left;
+    height: 45px;
+    margin: 0px 30px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 13px;
+    color: #000c1a;
+}
+
+.sk-list-f2 ul {
+    float: left;
+}
+
+.nav .w .sk-list-f2 li {
+    width: 61px;
+    float: left;
+    height: 45px;
+    margin: 0px 22.5px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.sk-list-f2 ul li:nth-last-child(1) {
+    font-weight: bolder;
+    font-family: 'iconmoon';
+}
+
+.list-main {
+    height: 1880px;
+    /* background-color: rgba(22, 22, 2, 0.3); */
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.list-main ul li {
+    float: left;
+    margin-right: 17px;
+    margin-top: 10px;
+}
+
+.lm-item {
+    width: 283px;
+    height: 460px;
+    /* background-color: rgba(22, 220, 220, 0.3); */
+    border: 1px transparent solid;
+    overflow: hidden;
+}
+
+.lm-item:nth-child(4n) {
+    margin: 0;
+}
+
+.lm-item:hover {
+    border-color: red;
+}
+
+.lm-ifm {
+    height: 80px;
+}
+
+.lm-ifm p {
+    margin-top: 10px;
+}
+
+.pri-now {
+    color: red;
+    font-size: 18px;
+}
+
+.pri-pre {
+    text-decoration: line-through;
+}
+
+.lm-count {
+    height: 40px;
+}
+
+.lm-count {
+    font-size: 10px;
+}
+
+.lm-count span {
+    color: red;
+}
+
+.lmc-all {
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    border: 1px #b1191a solid;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.lmc-now {
+    display: inline-block;
+    width: 87%;
+    height: 11px;
+    background-color: #b1191a;
+}
+
+.lm-btn {
+    height: 50px;
+    background-color: #b1191a;
+    text-align: center;
+    line-height: 50px;
+}
+
+.lm-btn a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.lm-btn:hover a {
+    color: red;
+}
+
+.stepto {
+    height: 150px;
+    /* background-color: red; */
+    padding: 54px 0px;
+}
+
+.stepto div {
+    height: 42px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.stepto a {
+    display: inline-block;
+    height: 42px;
+    padding: 0px 10px;
+    background-color: #f7f7f7;
+    border: 1px #ccc solid;
+}
+
+.stepto page-btn {
+    font-weight: bolder;
+}
